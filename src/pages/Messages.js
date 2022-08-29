@@ -6,10 +6,10 @@ export default function Messages() {
     <div>
         <Header />
 
-        <div className='container mx-auto sm:px-24 md:px-32 xl:px-32 lg:px-32 pt-2 pt-32'>
+        <div className='container mx-auto sm:px-24 md:px-32 xl:px-32 lg:px-32 pt-2 pt-32 h-screen'>
 
           <div className='grid grid-cols-4 gap-x-6'>
-            <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-screen rounded-2hx">
+            <div class="max-w-sm overflow-hidden shadow-lg min-h-100 rounded-2xl bg-white py-4">
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                 <p class="text-gray-700 text-base">
@@ -17,7 +17,7 @@ export default function Messages() {
                 </p>
               </div>
             </div>
-            <div class="w-full rounded overflow-hidden shadow-lg min-h-screen col-span-3">
+            <div class="w-full overflow-hidden shadow-lg min-h-100 col-span-3 rounded-2xl bg-white py-8">
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                 <p class="text-gray-700 text-base">

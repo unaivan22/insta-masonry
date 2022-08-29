@@ -13,9 +13,7 @@ export default function Home() {
             
             
         </div>
-        <div className='fixed bottom-12 right-12'>
-            <FloatBtn />
-        </div>
+        <FloatBtn />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './utils/Header'
 import ExploreData from './data/ExploreData'
+import FloatBtn from './utils/FloatBtn'
 
 export default function Explores() {
   return (
@@ -11,7 +12,7 @@ export default function Explores() {
             <ExploreData />
         </div>
         
-
+        <FloatBtn />
     </div>
   )
 }
